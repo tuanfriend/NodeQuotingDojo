@@ -1,0 +1,52 @@
+body{
+    margin: 0px auto;
+    width: 970px;
+    border: 2px solid rgb(206, 68, 5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    min-height: 320px;
+    box-shadow: 10px 10px 50px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+#h1detail{
+    text-align: center;
+}
+h1{
+    color: rgb(238, 245, 248);
+    background-color: rgb(192, 45, 45);
+    padding: 15px;
+    border-radius: 10px;    
+}
+h5{
+    margin-left: 40px;
+    color: rgb(192, 45, 45);
+}
+h3{
+    color: rgb(79, 173, 2);
+}
+#bt1{
+    float: left;
+    background-color: #008CBA;
+    padding: 10px;
+    color: beige;
+    border-radius: 8px;
+}
+#bt2{
+    margin-left: 10px;
+    float: left;
+    background-color: #f44336;
+    padding: 10px;
+    color: beige;
+    border-radius: 8px;
+}
+#bt3{
+    background-color: #008CBA;
+    padding: 10px;
+    color: beige;
+    border-radius: 8px;
+}
+

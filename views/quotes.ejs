@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quote Dash</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="h1detail">Here are the awesome Quotes!</h1>
+    <a href="/"><button id="bt3">Home Page</button></a>
+    <br>
+    <% for (var x in quotes) { %>
+        <h3><%= quotes[x].quote %> </h3>
+        <h5>By: <%= quotes[x].name %> -- On: <%= quotes[x].createdAt %></h5>
+        <hr>
+    <% } %>
+
+</body>
+</html>
